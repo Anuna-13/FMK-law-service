@@ -1,0 +1,222 @@
+p.name::after{
+    content:'\007C';
+    color:black;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+.logoo {
+    font-size: 20px;
+    color: black;
+}
+.law {
+    padding-left: 10px;
+    font-size: 20px;
+}
+.back-img {
+	background-color: darkgrey;
+	width: 100%;
+	height: 90px;
+	margin: 0 auto;
+	background-size: cover;	
+	position: relative;
+	opacity: 0.9;
+}
+.back-img:hover {
+	opacity: 1.0;
+}
+.container1 {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+	padding-top: 30px;
+}
+.nav-ul {
+	display: flex;
+     justify-content: flex-end;
+	/*padding-right: 49px;*/
+}
+.nav-a {
+	color:black;
+	font-family: 'Poppins-SemiBold';
+	font-size: 20px;
+}
+.nav-a:hover {
+	color:white;
+	/*transform: scale(1.1, 1.1);*/
+}
+.active{
+	color: white
+	font-family: 'Poppins-SemiBold';
+	font-size: 20px;
+}
+
+.nav-li {
+	padding-right: 49px;
+}
+.last {
+	padding-right: 0;
+}
+.box {
+	padding-left: 139px;
+	padding-top: 96px;
+}
+.pirveli {
+    background-image: url(../img/court1.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+/*footer*/
+.footer-box {
+	
+	display: flex;
+	justify-content: space-around;
+	/*align-items: center;*/
+	background-color: darkgrey;
+	padding-top: 90px;
+	/*padding-bottom: 144px;
+	flex-wrap: wrap;*/
+}
+.footer-box1 {
+	width: 100%;
+	height: 191px;
+	display: flex;
+	flex-direction: column;
+    justify-content: space-evenly;
+    /*align-items: center;*/
+
+}
+
+.contact-info {
+	width: 100%;
+	height: 191px;
+}
+.info-li {
+	font-family: 'Poppins-Medium';
+	font-size: 30px;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+}
+.use-title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.mail-icon {
+	color: black;
+	padding-right: 14px;
+}
+.phone-icon {
+	color: black;
+	padding-right: 17px;
+}
+.map-icon {
+	color:black;
+	padding-right: 19.9px;
+}
+.map,
+.phone,
+.email
+ {
+	color: black
+}
+.fb {
+	color:black;
+	background-color: darkgrey;
+	font-size: 30px;
+	
+}
+.twit {
+	color:black;
+	background-color: darkgrey;
+	font-size: 30px;
+}
+.g-plus {
+	color:black;
+	background-color: darkgrey;
+	font-size: 30px;
+	
+}
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   /* width: 100px;*/
+  /* padding-right: 30px;*/
+
+}
+.fb:hover {
+	color: #3B5998;
+	transform: scale(1.8,1.8);
+}
+.twit:hover {
+	color: #55ACEE;
+	transform: scale(1.8,1.8);
+}
+.g-plus:hover {
+	color: #DC4E41;
+	transform: scale(1.8,1.8);
+}
+.logo2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+    font-size: 30px;
+}
+.F-logoo {
+    font-size: 30px;
+    color: black;
+    padding-left: 10px;
+
+}
+/*meore*/
+.meore {
+    margin: 0 auto;
+    background-color: darkgray;
+}
+.satauri {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+.lawyers {
+    font-size: 48px;
+    font-weight: bold;
+}
+.advokatebi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap
+    
+}
+.advokati {
+    width: 300px;
+    height: 100%;
+    background-color: dimgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    
+}
+.img-law {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    margin-top: 20px;
+}
+.law-name,
+.position,
+.description {
+    font-size: 25px;
+    color:black;
+    font-weight: bold;
+}
