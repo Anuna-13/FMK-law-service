@@ -1,20 +1,25 @@
-p.name::after{
-    content:'\007C';
-    color:black;
-}
+
 .logo {
     display: flex;
     justify-content: flex-start;
     padding-left: 30px;
 }
-.logoo {
-    font-size: 20px;
-    color: black;
+body {
+	background-color:#26272c;
 }
+
 .law {
     padding-left: 10px;
-    font-size: 20px;
+	font-size: 20px;
+	font-family: 'BPG Nino Mtavruli Bold';
+	color: #f7f2ee;
+	padding-top: 30px;
 }
+.head-logo {
+	width: 70px;
+	height: 70px;
+}
+
 .back-img {
 	background-color:#26272c;
 	width: 100%;
@@ -31,7 +36,7 @@ p.name::after{
 	display: flex;
     justify-content: space-around;
     align-items: center;
-	padding-top: 30px;
+	/*padding-top: 30px;*/
 }
 .nav-ul {
 	display: flex;
@@ -39,17 +44,17 @@ p.name::after{
 	/*padding-right: 49px;*/
 }
 .nav-a {
-	color:black;
-	font-family: 'Poppins-SemiBold';
+	color:#f7f2ee;
+	font-family: 'BPG Nino Mtavruli Bold';
 	font-size: 20px;
 }
 .nav-a:hover {
-	color:white;
+	color:#dfdfdf;
 	/*transform: scale(1.1, 1.1);*/
 }
 .active{
-	color: white
-	font-family: 'Poppins-SemiBold';
+	color: #f7f2ee;
+	font-family: 'BPG Nino Mtavruli Bold';
 	font-size: 20px;
 }
 
@@ -73,17 +78,15 @@ p.name::after{
 }*/
 /*footer*/
 .footer-box {
-	
 	display: flex;
 	justify-content: space-around;
-	/*align-items: center;*/
-	background-color:#26272c;
+	align-items: center;
 	padding-top: 90px;
 	/*padding-bottom: 144px;
 	flex-wrap: wrap;*/
 }
 .footer-box1 {
-	width: 100%;
+	/*width: 100%;*/
 	height: 191px;
 	display: flex;
 	flex-direction: column;
@@ -91,66 +94,69 @@ p.name::after{
     /*align-items: center;*/
 
 }
-
 .contact-info {
-	width: 100%;
+	/*width: 100%;*/
 	height: 191px;
+	padding-top: 20px;;
 }
 .info-li {
 	font-family: 'Poppins-Medium';
-	font-size: 30px;
-	color: #FFFFFF;
+	font-size: 15px;
+	color: #f7f2ee;
 	padding-bottom: 20px;
 }
 .use-title {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
-    padding-bottom: 10px;
+	padding-bottom: 10px;
+	color: #f7f2ee;;
+	font-family: 'BPG Nino Mtavruli Bold';
 }
 .mail-icon {
-	color: black;
+	color: #f7f2ee;
 	padding-right: 14px;
 }
 .phone-icon {
-	color: black;
+	color: #f7f2ee;
 	padding-right: 17px;
 }
 .map-icon {
-	color:black;
+	color:#f7f2ee;
 	padding-right: 19.9px;
 }
 .map,
 .phone,
 .email
  {
-	color: black
+	color: #f7f2ee;
 }
 .fb {
-	color:black;
+	color:#f7f2ee;
 	background-color: #26272c;
 	font-size: 30px;
 	
 }
 .twit {
-	color:black;
+	color:#f7f2ee;
 	background-color: #26272c;
 	font-size: 30px;
 }
 .g-plus {
-	color:black;
+	color:#f7f2ee;
 	background-color: #26272c;
 	font-size: 30px;
 	
 }
 .social-icons {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
+    /*align-items: center;*/
    /* width: 100px;*/
-  /* padding-right: 30px;*/
-
+  	/*padding-right: 30px;*/
 }
+
+
 .fb:hover {
 	color: #3B5998;
 	transform: scale(1.8,1.8);
@@ -165,16 +171,22 @@ p.name::after{
 }
 .logo2 {
     display: flex;
-    justify-content: center;
+   /* justify-content: flex-start;*/
     flex-wrap: wrap;
-    color: black;
-    font-size: 30px;
+    /*color: black;
+    font-size: 30px;*/
 }
 .F-logoo {
-    font-size: 30px;
-    color: black;
-    padding-left: 10px;
+    font-size: 20px;
+    color: #f7f2ee;
+	padding-left: 10px;
+	font-family: 'BPG Nino Mtavruli Bold';
+	padding-top: 30px;
 
+}
+.foot-logo {
+	width: 70px;
+	height: 70px;
 }
 /*meore*/
 .meore {
@@ -188,9 +200,10 @@ p.name::after{
     margin: 20px auto;
 }
 .lawyers {
-    font-size: 16px;
+    font-size: 20px;
 	font-weight: bold;
-	color: #fff;
+	color: #f7f2ee;
+	font-family: 'BPG Nino Mtavruli Bold';
 }
 .advokatebi {
     display: flex;
@@ -200,7 +213,7 @@ p.name::after{
     
 }
 .advokati {
-    width: 300px;
+    width: 400px;
     height: 100%;
     background-color:#18181c;
     display: flex;
@@ -216,10 +229,24 @@ p.name::after{
     border-radius: 50%;
     margin-top: 20px;
 }
-.law-name,
-.position,
+.law-name{
+	padding-top: 10px;
+    font-size: 20px;
+    color: #f7f2ee;
+	font-weight: bold;
+	font-family: 'BPG Nino Mtavruli Bold';
+}
+.position{
+	padding-top: 10px;
+	font-size: 15px;
+    color: #f7f2ee;
+	font-weight: bold;
+	font-family: 'BPG Nino Mtavruli Bold';
+}
 .description {
-    font-size: 16x;
-    color:#fff;
-    font-weight: bold;
+	padding-top: 10px;
+	font-size: 12px;
+    color: #f7f2ee;
+	font-weight: bold;
+	font-family: 'BPG Nino Mtavruli Bold';
 }
