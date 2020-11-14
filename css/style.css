@@ -129,6 +129,7 @@ body {
 .email
  {
 	color: #f7f2ee;
+	font-family: 'BPG Nino Mtavruli Bold';
 }
 .fb {
 	color:#f7f2ee;
@@ -274,7 +275,7 @@ textarea {
 	font-family: 'BPG Nino Mtavruli Bold';
 }
 .form-wraper {
-	width: 730.26px;
+	width: 700px;
 	margin-left: 100px;
 	margin-top: 70px;
 	}
@@ -300,11 +301,19 @@ textarea {
 	color: #26272c;
 	font-size: 18px;
 	margin-top: 30px;
-	padding: 10px;
+	
 	border-radius: 5%;
 	font-family: 'BPG Nino Mtavruli Bold';
+	text-align: center;
 }
 .btn:hover {
 	background-color: #18181c;
 	color: #f7f2ee;
+}
+.contact-wraper {
+	display: flex;
+	justify-content: space-around;
+}
+.contact-map {
+	margin-top: 95px;;
 }
