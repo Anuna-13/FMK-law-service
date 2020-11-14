@@ -250,3 +250,61 @@ body {
 	font-weight: bold;
 	font-family: 'BPG Nino Mtavruli Bold';
 }
+.burger-icon {
+	font-size: 20px;
+	color: #f7f2ee;
+	display: none;
+}
+/*contact page*/
+textarea {
+	resize: none;
+	width: 731.42px;
+	height: 112.62px;
+	width: 100%;
+	border: none;
+	
+	margin-top: 11.9px;
+}
+.saxeli, 
+.mail, 
+.sub-satauri, 
+.letter {
+	font-size: 20px;
+	color:#f7f2ee;
+	font-family: 'BPG Nino Mtavruli Bold';
+}
+.form-wraper {
+	width: 730.26px;
+	margin-left: 100px;
+	margin-top: 70px;
+	}
+.input-wraper {
+	width: 100%;
+	font-size: 20px;
+	padding: 11px 200px 20.60px 29.60px;
+	margin-top: 11.9px;
+	margin-bottom: 11.9px;
+}
+.input-wraper::placeholder {
+	font-size: 20px;
+}
+.input-wraper:focus,
+.textarea-wraper:focus {
+	outline: none;
+}
+.btn {
+	border: none;
+	background-color: #f7f2ee;
+	width: 100px;
+	height: 40px;
+	color: #26272c;
+	font-size: 18px;
+	margin-top: 30px;
+	padding: 10px;
+	border-radius: 5%;
+	font-family: 'BPG Nino Mtavruli Bold';
+}
+.btn:hover {
+	background-color: #18181c;
+	color: #f7f2ee;
+}
