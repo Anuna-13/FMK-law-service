@@ -276,7 +276,7 @@ textarea {
 }
 .form-wraper {
 	width: 700px;
-	margin-left: 100px;
+	/*margin-left: 100px;*/
 	margin-top: 70px;
 	}
 .input-wraper {
@@ -313,6 +313,7 @@ textarea {
 .contact-wraper {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 .contact-map {
 	margin-top: 95px;;
