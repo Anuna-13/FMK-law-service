@@ -1,7 +1,9 @@
-
+/*header*/
 header {
 	display: fixed;
 	background-color:#18181c;
+	/*opacity: 0.8;*/
+	box-shadow:  0px 7px #0d0d0d
 }
 .logo {
     display: flex;
@@ -9,7 +11,6 @@ header {
 	padding-left: 90px;
 	/*margin-right: 600px;
 	/*padding-top: 20px;*/
-	
 }
 body {
 	background-color:#26272c;
@@ -17,9 +18,10 @@ body {
 
 .law {
    	padding-left: 10px;
-	font-size: 20px;
+	font-size: 28px;
 	font-family: 'BPG Nino Mtavruli Bold';
 	color: #f7f2ee;
+	text-shadow: 1px 1px #efe5dc;
 	padding-top: 27px;
 }
 .head-logo {
@@ -34,10 +36,10 @@ body {
 	margin: 0 auto;
 	background-size: cover;	
 	position: relative;
-	opacity: 0.9;
+	opacity: 0.8;
 }
 .back-img:hover {
-	opacity: 0.8;
+	opacity: 1;
 }
 .container1 {
 	display: flex;
@@ -56,16 +58,18 @@ body {
 .nav-a {
 	color:#f7f2ee;
 	font-family: 'BPG Nino Mtavruli Bold';
-	font-size: 20px;
+	font-size: 28px;
+	
 }
 .nav-a:hover {
 	color:#dfdfdf;
 	/*transform: scale(1.1, 1.1);*/
+	text-shadow: 1px 1px #efe5dc;
 }
 .active{
 	color: #f7f2ee;
 	font-family: 'BPG Nino Mtavruli Bold';
-	font-size: 20px;
+	font-size: 28px;
 }
 
 .nav-li {
@@ -74,20 +78,6 @@ body {
 .last {
 	padding-right: 0;
 }
-/*.box {
-	padding-left: 139px;
-	padding-top: 96px;
-}*/
-/*.pirveli {
-    background-image: url(../img/court1.jpg);
-    position: relative;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 300px;
-    background-size: cover;
-}*/
-
-
 /*footer*/
 .footer-box {
 	display: flex;
@@ -97,6 +87,7 @@ body {
 	flex-wrap: wrap;
 	background-color:#18181c;
 	/*margin-top: 100px 50px;*/
+
 }
 .footer-box1 {
 	/*width: 100%;*/
@@ -115,16 +106,17 @@ body {
 }
 .info-li {
 	font-family: 'Poppins-Medium';
-	font-size: 15px;
+	font-size: 20px;
 	color: #f7f2ee;
 	padding-bottom: 30px;
 }
 .use-title {
-    font-size: 20px;
+    font-size: 28px;
     font-weight: bold;
 	padding-bottom: 10px;
 	color: #f7f2ee;;
 	font-family: 'BPG Nino Mtavruli Bold';
+	text-shadow: 1px 1px #efe5dc;
 }
 .mail-icon {
 	color: #f7f2ee;
@@ -144,22 +136,23 @@ body {
  {
 	color: #f7f2ee;
 	font-family: 'BPG Nino Mtavruli Bold';
+	font-size: 20px;
 }
 .fb {
 	color:#f7f2ee;
 	background-color: #18181c;
-	font-size: 30px;
+	font-size: 50px;
 	
 }
 .twit {
 	color:#f7f2ee;
 	background-color:#18181c;
-	font-size: 30px;
+	font-size: 50px;
 }
 .g-plus {
 	color:#f7f2ee;
 	background-color:#18181c;
-	font-size: 30px;
+	font-size: 50px;
 	
 }
 .social-icons {
@@ -190,11 +183,12 @@ body {
     font-size: 30px;*/
 }
 .F-logoo {
-    font-size: 20px;
+    font-size: 28px;
     color: #f7f2ee;
 	padding-left: 10px;
 	font-family: 'BPG Nino Mtavruli Bold';
 	padding-top: 30px;
+	text-shadow: 1px 1px #efe5dc;
 
 }
 .foot-logo {
@@ -233,7 +227,8 @@ body {
     flex-direction: column;
 	align-items: center;
 	text-align: center;
-    border-radius: 2%;
+	border-radius: 2%;
+	box-shadow:7px 7px #0d0d0d
     
 }
 .img-law {
@@ -340,7 +335,9 @@ textarea {
 .img-ab {
 	width: 100%;
 	/*height: 100%;*/
-	padding-right: 70px;
+	/*padding-right: 70px;*/
+	box-shadow: 7px 7px #0d0d0d;
+	border-radius: 5px;
 }
 .about-text {
 	width: 610px;
@@ -351,6 +348,11 @@ textarea {
 	align-items: center;
 	/*text-align: center;*/
 	/*padding-top: 15px;*/
+	margin-left: 70px;
+	border: solid;
+	border-color:  #18181c;
+	padding:  10px 10px 0 10px;
+	box-shadow: 5px 5px #0d0d0d;
 }
 .about-title {
 	color: #f7f2ee;
@@ -363,6 +365,7 @@ textarea {
 	font-size: 19.9px;
 	font-family: 'BPG Nino Mtavruli Bold';
 	padding-bottom: 10px;
+	text-shadow: 5px  #18181c;
 }
 .viber-icon,
 .whatsapp-icon,
@@ -392,13 +395,13 @@ textarea {
 .fb-icon:hover{
 	color: #3B5998;
 	transform: scale(1.8,1.8);
-	
-
 }
 /*work-area*/
 .work-area {
 	margin: 100px 100px;
 	background-color:#18181c;
+	border-radius: 10px;
+	box-shadow:7px 7px #0d0d0d
 	
 }
 .work-area-title-box {
@@ -409,7 +412,7 @@ textarea {
 	/*margin: 50px;*/
 	font-family: 'BPG Nino Mtavruli Bold';
 	padding-top: 70px;
-	padding-bottom: 50px;
+	padding-bottom: 25px;
 }
 .work-area-box {
 	display: flex;
