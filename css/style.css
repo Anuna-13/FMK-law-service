@@ -92,26 +92,26 @@ body {
 .footer-box {
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
-	padding-top: 90px;
-	/*padding-bottom: 144px;
-	flex-wrap: wrap;*/
+	/*align-items: center;*/
+	padding: 100px 150px;
+	flex-wrap: wrap;
 	background-color:#18181c;
-	margin-top: 30px;
+	/*margin-top: 100px 50px;*/
 }
 .footer-box1 {
 	/*width: 100%;*/
-	height: 191px;
+	/*height: 191px;*/
 	display: flex;
 	flex-direction: column;
-    justify-content: space-evenly;
-    /*align-items: center;*/
+  	justify-content: space-evenly;
+	/*align-items: center;
+	/*padding-left: 100px;*/
 
 }
 .contact-info {
-	/*width: 100%;*/
-	height: 191px;
-	padding-top: 20px;;
+	/*width: 100%;
+	/*height: 191px;*/
+	/*padding-top: 20px;*/
 }
 .info-li {
 	font-family: 'Poppins-Medium';
@@ -147,18 +147,18 @@ body {
 }
 .fb {
 	color:#f7f2ee;
-	background-color: #26272c;
+	background-color: #18181c;
 	font-size: 30px;
 	
 }
 .twit {
 	color:#f7f2ee;
-	background-color: #26272c;
+	background-color:#18181c;
 	font-size: 30px;
 }
 .g-plus {
 	color:#f7f2ee;
-	background-color: #26272c;
+	background-color:#18181c;
 	font-size: 30px;
 	
 }
@@ -170,8 +170,6 @@ body {
    /* width: 100px;*/
   	/*padding-right: 30px;*/
 }
-
-
 .fb:hover {
 	color: #3B5998;
 	transform: scale(1.8,1.8);
@@ -205,14 +203,14 @@ body {
 }
 /*meore*/
 .meore {
-    margin: 0 auto;
+    margin: 100px 50px;
     background-color:  #26272c;
 
 }
 .satauri {
     display: flex;
     justify-content: space-around;
-    margin: 20px auto;
+    margin: 50px auto;
 }
 .lawyers {
     font-size: 30px;
@@ -252,14 +250,14 @@ body {
 	font-family: 'BPG Nino Mtavruli Bold';
 }
 .position{
-	padding-top: 10px;
+	padding-top: 20px;
 	font-size: 15px;
     color: #f7f2ee;
 	font-weight: bold;
 	font-family: 'BPG Nino Mtavruli Bold';
 }
 .description {
-	padding: 10px;
+	padding: 20px;
 	font-size: 12px;
     color: #f7f2ee;
 	font-weight: bold;
@@ -336,8 +334,7 @@ textarea {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: 40px;
-	margin-bottom: 40px ;
+	margin: 100px 40px;
 
 }
 .img-ab {
@@ -372,7 +369,7 @@ textarea {
 .fb-icon {
 	color: #f7f2ee;
 	font-size: 30px;
-	margin: 15px;*/
+	margin: 15px;
 }
 .law-icons{
 	display: flex;
@@ -397,4 +394,46 @@ textarea {
 	transform: scale(1.8,1.8);
 	
 
+}
+/*work-area*/
+.work-area {
+	margin: 100px 100px;
+	background-color:#18181c;
+	
+}
+.work-area-title-box {
+	display: flex;
+	justify-content: center;
+	color: #f7f2ee;
+	font-size: 30px;
+	/*margin: 50px;*/
+	font-family: 'BPG Nino Mtavruli Bold';
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+.work-area-box {
+	display: flex;
+	justify-content: space-around;
+	height: 100%;
+	flex-wrap: wrap;
+	margin: 30px;
+
+}
+.work-area-list {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	
+	
+}
+.work-p {
+	font-family: 'BPG Nino Mtavruli Bold';
+	color: #f7f2ee;
+	font-size: 23px;
+	padding-top: 15px;
+}
+.work-area-icon {
+	font-size: 30px;
+	padding-right: 15px;
 }
