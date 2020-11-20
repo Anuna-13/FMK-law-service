@@ -1,10 +1,11 @@
 /*header*/
-header {
+/*header {
 	display: fixed;
 	background-color:#18181c;
 	/*opacity: 0.8;*/
-	box-shadow:  0px 7px #0d0d0d
-}
+	/*box-shadow:  0px 7px #0d0d0d;
+	/*position: fixed;
+}*/
 .logo {
     display: flex;
     /*justify-content: center;*/
@@ -33,10 +34,13 @@ body {
 	background-color:#18181c;
 	width: 100%;
 	height: 130px;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	background-size: cover;	
 	position: relative;
 	opacity: 0.8;
+	margin-bottom: 50px;
+	
+
 }
 .back-img:hover {
 	opacity: 1;
@@ -47,6 +51,7 @@ body {
 	align-items: center;
 	text-align: center;
 	padding-top: 30px;
+	margin-bottom: 130px;
 	
 }
 .nav-ul {
@@ -223,13 +228,46 @@ body {
 	width: 430px;
     height: 100%;
     background-color:#18181c;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
 	align-items: center;
-	text-align: center;
+	/*text-align: center;*/
 	border-radius: 2%;
 	box-shadow:7px 7px #0d0d0d
     
+}
+.team-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.law-mail-icon{
+	font-size: 25px;
+	color: #f7f2ee;
+	padding-right: 3px;
+}
+.law-phone-icon {
+	font-size: 25px;
+	color: #f7f2ee;
+	padding-right: 3px;
+}
+.social-media {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin-left: 100px;
+}
+.law-email{
+	font-size: 23px;
+	color: #f7f2ee;
+	font-family: 'BPG Nino Mtavruli Bold';
+	padding-right: 5px;
+}
+.law-phone{
+	font-size: 23px;
+	color: #f7f2ee;
+	font-family: 'BPG Nino Mtavruli Bold';
 }
 .img-law {
     width: 147px;
@@ -239,21 +277,21 @@ body {
 }
 .law-name{
 	padding-top: 10px;
-    font-size: 20px;
+    font-size: 25px;
     color: #f7f2ee;
 	font-weight: bold;
 	font-family: 'BPG Nino Mtavruli Bold';
 }
 .position{
 	padding-top: 20px;
-	font-size: 15px;
+	font-size: 19px;
     color: #f7f2ee;
 	font-weight: bold;
 	font-family: 'BPG Nino Mtavruli Bold';
 }
 .description {
 	padding: 20px;
-	font-size: 12px;
+	font-size: 15px;
     color: #f7f2ee;
 	font-weight: bold;
 	font-family: 'BPG Nino Mtavruli Bold';
@@ -329,7 +367,7 @@ textarea {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin: 100px 40px;
+	/*margin: 200px 40px;*/
 
 }
 .img-ab {
@@ -367,33 +405,36 @@ textarea {
 	padding-bottom: 10px;
 	text-shadow: 5px  #18181c;
 }
-.viber-icon,
-.whatsapp-icon,
-.fb-icon {
-	color: #f7f2ee;
+.viber-icon {
+	color: #665CAC;
 	font-size: 30px;
-	margin: 15px;
+}
+.fb-icon {
+	color: #3B5998;
+	font-size: 30px;
+}
+.whatsapp-icon {
+	color:#25D366;
+	font-size: 30px;
 }
 .law-icons{
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 .law-info {
 	padding-bottom: 10px;
 }
 .viber-icon:hover {
-	color: #665CAC;
+	
 	transform: scale(1.8,1.8);
-	
-	
 }
 .whatsapp-icon:hover{
-	color:#25D366;
+	
 	transform: scale(1.8,1.8);
 
 }
 .fb-icon:hover{
-	color: #3B5998;
+	
 	transform: scale(1.8,1.8);
 }
 /*work-area*/
