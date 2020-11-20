@@ -346,23 +346,23 @@ textarea {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	/*text-align: center;*/
-	/*padding-top: 15px;*/
 	margin-left: 70px;
 	border: solid;
 	border-color:  #18181c;
 	padding:  10px 10px 0 10px;
 	box-shadow: 5px 5px #0d0d0d;
+	margin-top: 25px;
+
 }
 .about-title {
 	color: #f7f2ee;
 	font-family: 'BPG Nino Mtavruli Bold';
-	font-size: 25px;
+	font-size: 27px;
 	padding-bottom: 10px;;
 }
 .about-p {
 	color: #f7f2ee;
-	font-size: 19.9px;
+	font-size: 110%;
 	font-family: 'BPG Nino Mtavruli Bold';
 	padding-bottom: 10px;
 	text-shadow: 5px  #18181c;
