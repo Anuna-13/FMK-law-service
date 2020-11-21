@@ -54,6 +54,7 @@ body {
 	/*margin-bottom: 50px;*/
 	align-items: center;
 	text-align: center;
+	margin-bottom: 50px;
 }
 .back-img:hover {
 	opacity: 1;
@@ -395,7 +396,7 @@ textarea {
 .form-wraper {
 	width: 700px;
 	/*margin-left: 100px;*/
-	margin-top: 70px;
+	/*margin-top: 70px;*/
 	}
 .input-wraper {
 	width: 100%;
@@ -433,7 +434,7 @@ textarea {
 	flex-wrap: wrap;
 }
 .contact-map {
-	margin-top: 95px;;
+	margin-top: 40px;;
 }
 /*pirveli*/
 .about-wraper {
