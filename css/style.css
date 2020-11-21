@@ -1,46 +1,59 @@
 /*header*/
 /*header {
-	display: fixed;
+
 	background-color:#18181c;
-	/*opacity: 0.8;*/
-	/*box-shadow:  0px 7px #0d0d0d;
-	/*position: fixed;
-}*/
-.logo {
+	opacity: 0.8;
+	box-shadow:  0px 7px #0d0d0d;
+	position: fixed;
+  }*/
+  .logo {
     display: flex;
-    /*justify-content: center;*/
-	padding-left: 90px;
-	/*margin-right: 600px;
-	/*padding-top: 20px;*/
+    justify-content: center;
+    padding-left: 90px;
+   /* margin-right: 600px;*/
+    /*padding-top: 20px;*/
 }
 body {
 	background-color:#26272c;
 }
 
 .law {
-   	padding-left: 10px;
+	padding-left: 10px;
+	align-items: center;
+	text-align: center;
 	font-size: 28px;
 	font-family: 'BPG Nino Mtavruli Bold';
 	color: #f7f2ee;
 	text-shadow: 1px 1px #efe5dc;
-	padding-top: 27px;
-}
+	padding-top: 20px;
+  }
 .head-logo {
 	width: 70px;
 	height: 70px;
 }
-
+#menuToggle{
+	display: flex;
+	/*padding-top: 20px;*/
+  }
+  /*.nav-ul {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	/*padding-right: 49px;*/
+	/*padding-top: 30px;
+	
+}*/
 .back-img {
 	background-color:#18181c;
 	width: 100%;
 	height: 130px;
-	/*margin: 0 auto;*/
+	/*margin-bottom: 130px;*/
 	background-size: cover;	
 	position: relative;
 	opacity: 0.8;
-	margin-bottom: 50px;
-	
-
+	/*margin-bottom: 50px;*/
+	align-items: center;
+	text-align: center;
 }
 .back-img:hover {
 	opacity: 1;
@@ -51,12 +64,13 @@ body {
 	align-items: center;
 	text-align: center;
 	padding-top: 30px;
-	margin-bottom: 130px;
+	/*margin-bottom: 130px;*/
 	
 }
 .nav-ul {
 	display: flex;
-    justify-content: space-evenly;
+	justify-content: space-evenly;
+	text-decoration: none;
 	/*padding-right: 49px;
 	padding-top: 20px;*/
 }
@@ -64,12 +78,15 @@ body {
 	color:#f7f2ee;
 	font-family: 'BPG Nino Mtavruli Bold';
 	font-size: 28px;
+	text-decoration: none;
 	
 }
 .nav-a:hover {
 	color:#dfdfdf;
-	/*transform: scale(1.1, 1.1);*/
+	/*transform: scale(1.1, 1.1);
 	text-shadow: 1px 1px #efe5dc;
+	text-decoration: none;*/
+
 }
 .active{
 	color: #f7f2ee;
@@ -79,10 +96,69 @@ body {
 
 .nav-li {
 	padding-right: 55px;
+	text-decoration: none;
 }
 .last {
 	padding-right: 0;
 }
+/*burger-menu*/
+.menu-btn {
+	position: relative;
+	display: flex;
+	/*justify-content: center;*/
+	/*align-items: center;*/
+	padding-top: 10px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	transition: all .5s ease-in-out;
+	/*border: 3px solid #fff;*/
+  }
+  
+  .menu-btn-burger {
+	display: none;
+	width: 50px;
+	height: 6px;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(255,101,47,.2);
+	transition: all .5s ease-in-out;
+  
+  }
+  .menu-btn-burger::before,
+  .menu-btn-burger::after{
+	display: flex;
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 6px;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(255,101,47,.2);
+	transition: all .5s ease-in-out;
+  
+  }
+  
+  .menu-btn-burger::before {
+	transform: translateY(-16px);
+  
+  }
+  .menu-btn-burger::after{
+	transform: translateY(16px);
+  }
+  
+  /* ANIMATION */
+  .menu-btn.open .menu-btn-burger {
+	transform: translateX(-50px);
+	background: transparent;
+	box-shadow: none;
+  }
+  .menu-btn.open .menu-btn-burger::before {
+	transform: rotate(45deg) translate(35px, -35px);
+  }
+  .menu-btn.open .menu-btn-burger::after {
+	transform: rotate(-45deg) translate(35px, 35px);
+  }
 /*footer*/
 .footer-box {
 	display: flex;
@@ -233,7 +309,8 @@ body {
 	align-items: center;
 	/*text-align: center;*/
 	border-radius: 2%;
-	box-shadow:7px 7px #0d0d0d
+	box-shadow:7px 7px #0d0d0d;
+	margin-top:10px;
     
 }
 .team-box {
@@ -296,11 +373,7 @@ body {
 	font-weight: bold;
 	font-family: 'BPG Nino Mtavruli Bold';
 }
-.burger-icon {
-	font-size: 20px;
-	color: #f7f2ee;
-	display: none;
-}
+
 /*contact page*/
 textarea {
 	resize: none;
@@ -513,15 +586,15 @@ textarea {
 .adv-info {
 	width: 800px;
 }
-.law-team-box {
-	/*width: 600px;*/
-	/*height: 100%;*/
+/*.law-team-box {
+	width: 600px;
+	height: 100%;
 
 }
 .sertificate-box {
-	/*width: 500px;*/
-	/*height: 100%;*/
-}
+	width: 500px;
+	height: 100%;
+}*/
 .law-team-name{
 	font-family: 'BPG Nino Mtavruli Bold';
 	color: #f7f2ee;

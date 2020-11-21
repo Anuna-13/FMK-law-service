@@ -1,40 +1,29 @@
 @media (max-width:1300px){
-	.navigation {
+	.nav-ul {
 		display: none;
 	}
 }
 @media (max-width:1300px){
-	.burger-icon {
-        display: block;
-        padding-right: 50px;
-        font-size: 45px;
+	.menu-btn-burger {
+       display: block;
+        
 	}
 }
+
 @media (max-width:460px){
 	.law {
         font-size: 20px;
 	}
 }
-@media (max-width:460px){
-	.burger-icon {
-        display: block;
-        padding-right: 50px;
-        font-size: 25px;
-	}
-}
+
 @media (max-width:460px){
 	.logo {
         padding-left: 20px;
         
 	}
 }
-@media (max-width:350px){
-	.burger-icon {
-        display: block;
-        padding-right: 20px;
-        font-size: 25px;
-	}
-}
+
+
 @media (max-width:1300px){
 	.about-text {
         margin-left: 0;

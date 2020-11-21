@@ -7,6 +7,7 @@
         <meta name="author" content="Anna Margishvili">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/b4f1b83a82.js" crossorigin="anonymous"></script>
+        
         <title>FMK იურიდიული მომსახურება</title>
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/fonts.css">
@@ -19,22 +20,26 @@
                 <div class="container1">
                     <div class="logo">
                         <a href="index.html"><img class="head-logo" src="img/logolight1.svg" alt="logo"></a>
-                         <p class="law">იურიდიული მომსახურება</p>
+                        <a href="index.html"><p class="law">იურიდიული მომსახურება</p></a>
                     </div>
-                        <nav class="navigation">
-                            <ul class="nav-ul">
-                                <li class="nav-li"><a class="nav-a active" href="index.html">მთავარი</a></li>
-                                <li class="nav-li"><a class="nav-a" href="service.html">მომსახურება</a></li>
-                                <li class="nav-li"><a class="nav-a" href="lawyers.html">ჩვენი გუნდი</a></li>
-                                <li class="nav-li last"><a class="nav-a " href="contact.html">კონტაქტი</a></li>
-                            </ul>
+                    <div class="burger">
+                        <nav class="navigation" role="navigation">
+                            <div id="menuToggle">
+                                <ul class="nav-ul" id="menu">
+                                    <li class="nav-li"><a class="nav-a active" href="index.html">მთავარი</a></li>
+                                    <li class="nav-li"><a class="nav-a" href="service.html">მომსახურება</a></li>
+                                    <li class="nav-li"><a class="nav-a" href="lawyers.html">ჩვენი გუნდი</a></li>
+                                    <li class="nav-li last"><a class="nav-a " href="contact.html">კონტაქტი</a></li>
+                                </ul>
+                                <div class="menu-btn">
+                                    <div class="menu-btn-burger"></div>
+                                </div> 
+                            </div>
                         </nav>
-                        <div class="burger">
-                            <i class="fas fa-bars burger-icon"></i>
-                        </div>	
+                        	
                     </div>
                 
-                
+                </div>
             </div>
         </header>
         <section class="pirveli">
@@ -164,6 +169,6 @@
           </div>
             
         </footer>
-    
+    <script src="js/burger.js"></script>
     </body>
 </html>
