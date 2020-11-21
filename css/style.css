@@ -481,8 +481,21 @@ textarea {
 	font-size: 30px;
 	padding-right: 15px;
 }
-.adv-img {
-	width: 100px;
-	height: 100px;
 
+.adv-img {
+	width: 380px;
+	height: 380px;
+
+}
+.law1,
+.law2,
+.law3 {
+	display: flex;
+	justify-content: space-around;
+	margin: 50px;
+}
+.adv-info {
+	display: flex;
+	flex-direction: column;
+	
 }
