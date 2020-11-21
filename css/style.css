@@ -356,14 +356,14 @@ body {
 	padding-top: 10px;
     font-size: 25px;
     color: #f7f2ee;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	font-family: 'BPG Nino Mtavruli Bold';
 }
 .position{
 	padding-top: 20px;
 	font-size: 19px;
     color: #f7f2ee;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	font-family: 'BPG Nino Mtavruli Bold';
 }
 .description {
