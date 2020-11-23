@@ -185,9 +185,9 @@
     }
 }
 
-@media(max-width:750px){
+@media(max-width:550px){
     .input-wraper {
-        font-size: 12px;
-        padding: 5px 30px 10px 15px;
+        font-size: 10px;
+        padding: 5px 20px 10px 15px;
     }
 }
