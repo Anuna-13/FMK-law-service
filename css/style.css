@@ -167,7 +167,7 @@ body {
 	flex-wrap: wrap;
 	background-color:#18181c;
 	box-shadow: -7px -7px 7px #0d0d0d;
-	/*margin-top: 100px 50px;*/
+	margin-top: 50px;
 
 }
 .footer-box1 {
@@ -278,7 +278,7 @@ body {
 }
 /*meore*/
 .meore {
-    margin: 100px 50px;
+    margin: 0px 50px;
     background-color:  #26272c;
 
 }
@@ -290,6 +290,7 @@ body {
 	padding: 50px 50px;
 	border-radius: 10px;
 	box-shadow: 7px 7px 7px #0d0d0d;
+	
 	
 }
 
@@ -428,6 +429,7 @@ textarea {
 	border-radius: 5%;
 	font-family: 'BPG Nino Mtavruli Bold';
 	text-align: center;
+	
 }
 .btn:hover {
 	background-color: #18181c;
