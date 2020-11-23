@@ -1,11 +1,8 @@
 /*header*/
-/*header {
-
-	background-color:#18181c;
-	opacity: 0.8;
-	box-shadow:  0px 7px #0d0d0d;
-	position: fixed;
-  }*/
+header {
+box-shadow: 7px 7px 7px #0d0d0d;
+	
+  }
   .logo {
     display: flex;
     justify-content: center;
@@ -169,6 +166,7 @@ body {
 	padding: 20px 60px;
 	flex-wrap: wrap;
 	background-color:#18181c;
+	box-shadow: -7px -7px 7px #0d0d0d;
 	/*margin-top: 100px 50px;*/
 
 }
@@ -287,8 +285,14 @@ body {
 .satauri {
     display: flex;
     justify-content: space-around;
-    margin: 50px auto;
+	margin: 50px 50px;
+	background-color:  #18181c;
+	padding: 50px 50px;
+	border-radius: 10px;
+	box-shadow: 7px 7px 7px #0d0d0d;
+	
 }
+
 .lawyers {
     font-size: 30px;
 	font-weight: bold;
@@ -311,7 +315,7 @@ body {
 	align-items: center;
 	/*text-align: center;*/
 	border-radius: 2%;
-	box-shadow:7px 7px #0d0d0d;
+	box-shadow:7px 7px 7px #0d0d0d;
 	margin-top:10px;
     
 }
@@ -449,7 +453,7 @@ textarea {
 	width: 100%;
 	/*height: 100%;*/
 	/*padding-right: 70px;*/
-	box-shadow: 7px 7px #0d0d0d;
+	box-shadow: 7px 7px 7px #0d0d0d;
 	border-radius: 5px;
 }
 .about-text {
@@ -463,7 +467,7 @@ textarea {
 	border: solid;
 	border-color:  #18181c;
 	padding:  10px 10px 0 10px;
-	box-shadow: 5px 5px #0d0d0d;
+	box-shadow: 5px 5px 5px #0d0d0d;
 	margin-top: 25px;
 
 }
@@ -517,7 +521,7 @@ textarea {
 	margin: 100px 100px;
 	background-color:#18181c;
 	border-radius: 10px;
-	box-shadow:7px 7px #0d0d0d
+	box-shadow:7px 7px 7px #0d0d0d
 	
 }
 .work-area-title-box {
@@ -560,6 +564,7 @@ textarea {
 .adv-img {
 	width: 380px;
 	height: 380px;
+	margin-bottom: 10px;
 }
 .law1 {
 	display: flex;
@@ -587,6 +592,12 @@ textarea {
 }
 .adv-info {
 	width: 800px;
+	background-color: #18181c;
+	padding: 15px;
+	box-shadow: -7px -7px 7px #0d0d0d;
+	border-radius: 3px;
+	
+
 }
 /*.law-team-box {
 	width: 600px;
@@ -643,12 +654,11 @@ textarea {
 	width: 69%;
 	margin: auto;
 	overflow: hidden;
-	/*border: solid 5px black;*/
 	position: relative;
-	margin-bottom: 50px;
 	border-radius: 10px;
 	box-shadow: 7px 7px 7px #0d0d0d;
 	opacity: 0.7;
+	
 
 }
 .carousel-container:hover {
@@ -658,8 +668,6 @@ textarea {
 .carousel-slide {
 	display: flex;
 	width: 100%;
-	
-	
 }
 #prevBtn {
 	position: absolute;
