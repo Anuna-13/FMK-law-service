@@ -166,3 +166,28 @@
         justify-content: center;
     }
 }
+@media(max-width:750px){
+    .form-wraper,
+    .con-map {
+        width: 500px;
+    }
+}
+@media(max-width:750px){
+    .input-wraper {
+        font-size: 15px;
+        padding: 5px 100px 10px 15px;
+    }
+}
+@media(max-width:550px){
+    .form-wraper,
+    .con-map {
+        width: 280px;
+    }
+}
+
+@media(max-width:750px){
+    .input-wraper {
+        font-size: 12px;
+        padding: 5px 50px 10px 15px;
+    }
+}
