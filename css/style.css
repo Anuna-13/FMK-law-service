@@ -106,32 +106,33 @@ body {
 .menu-btn {
 	position: relative;
 	display: flex;
-	/*justify-content: center;*/
+	justify-content: center;
 	/*align-items: center;*/
 	padding-top: 10px;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	cursor: pointer;
 	transition: all .5s ease-in-out;
 	/*border: 3px solid #fff;*/
-  }
+	margin-right:15px;
+}
   
   .menu-btn-burger {
 	display: none;
-	width: 50px;
+	width: 40px;
 	height: 6px;
 	background: #fff;
 	border-radius: 5px;
 	box-shadow: 0 2px 5px rgba(255,101,47,.2);
 	transition: all .5s ease-in-out;
-  
-  }
+
+}
   .menu-btn-burger::before,
   .menu-btn-burger::after{
 	display: flex;
 	content: '';
 	position: absolute;
-	width: 50px;
+	width: 40px;
 	height: 6px;
 	background: #fff;
 	border-radius: 5px;
@@ -141,11 +142,11 @@ body {
   }
   
   .menu-btn-burger::before {
-	transform: translateY(-16px);
+	transform: translateY(-13px);
   
   }
   .menu-btn-burger::after{
-	transform: translateY(16px);
+	transform: translateY(13px);
   }
   
   /* ANIMATION */
