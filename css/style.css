@@ -639,3 +639,36 @@ textarea {
 .viber {
 	padding-right: 20px;
 }
+.carousel-container {
+	width: 60%;
+	margin: auto;
+	overflow: hidden;
+	/*border: solid 5px black;*/
+	position: relative;
+}
+
+.carousel-slide {
+	display: flex;
+	width: 100%;
+	margin-bottom: 40px;
+}
+#prevBtn {
+	position: absolute;
+	top:50%;
+	z-index: 10;
+	left: 5%;
+	color: #18181c;
+	opacity: 1;
+	cursor: pointer;
+	font-size: 50px;
+}
+#nextBtn {
+	position: absolute;
+	top:50%;
+	z-index: 10;
+	right: 5%;
+	color: #18181c;
+	opacity: 1;
+	cursor: pointer;
+	font-size: 50px;
+}
