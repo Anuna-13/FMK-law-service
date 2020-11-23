@@ -640,17 +640,26 @@ textarea {
 	padding-right: 20px;
 }
 .carousel-container {
-	width: 60%;
+	width: 69%;
 	margin: auto;
 	overflow: hidden;
 	/*border: solid 5px black;*/
 	position: relative;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	box-shadow: 7px 7px 7px #0d0d0d;
+	opacity: 0.7;
+
+}
+.carousel-container:hover {
+	opacity: 1;
 }
 
 .carousel-slide {
 	display: flex;
 	width: 100%;
-	margin-bottom: 40px;
+	
+	
 }
 #prevBtn {
 	position: absolute;
@@ -661,6 +670,7 @@ textarea {
 	opacity: 1;
 	cursor: pointer;
 	font-size: 50px;
+	text-shadow: 2px 2px 2px black;
 }
 #nextBtn {
 	position: absolute;
@@ -671,4 +681,17 @@ textarea {
 	opacity: 1;
 	cursor: pointer;
 	font-size: 50px;
+	text-shadow: 2px 2px 2px black;
+}
+.slider-p {
+	position: absolute;
+	top:5%;
+	z-index: 10;
+	right: 5%;
+	color: black;
+	opacity: 1;
+	cursor: pointer;
+	font-size: 50px;
+	text-shadow: 2px 2px 2px black;
+	font-family: 'BPG Nino Mtavruli Bold';
 }
