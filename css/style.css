@@ -1,707 +1,899 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*header*/
 header {
-box-shadow: 7px 7px 7px #0d0d0d;
-	
-  }
-  .logo {
-    display: flex;
-    justify-content: center;
-    padding-left: 90px;
-   /* margin-right: 600px;*/
-    /*padding-top: 20px;*/
-}
-body {
-	background-color:#26272c;
-}
-
-.law {
-	padding-left: 10px;
-	align-items: center;
-	text-align: center;
-	font-size: 28px;
-	font-family: 'BPG Nino Mtavruli Bold';
-	color: #f7f2ee;
-	text-shadow: 1px 1px #efe5dc;
-	padding-top: 20px;
-  }
-.head-logo {
-	width: 70px;
-	height: 70px;
-}
-#menuToggle{
-	display: flex;
-	/*padding-top: 20px;*/
-  }
-  /*.nav-ul {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	/*padding-right: 49px;*/
-	/*padding-top: 30px;
-	
-}*/
-.back-img {
-	background-color:#18181c;
-	width: 100%;
-	height: 130px;
-	/*margin-bottom: 130px;*/
-	background-size: cover;	
-	position: relative;
-	opacity: 0.8;
-	/*margin-bottom: 50px;*/
-	align-items: center;
-	text-align: center;
-	margin-bottom: 50px;
-}
-.back-img:hover {
-	opacity: 1;
-}
-.container1 {
-	display: flex;
-    justify-content: space-between;
-	align-items: center;
-	text-align: center;
-	padding-top: 30px;
-	/*margin-bottom: 130px;*/
-	
-}
-.nav-ul {
-	display: flex;
-	justify-content: space-evenly;
-	text-decoration: none;
-	/*padding-right: 49px;
-	padding-top: 20px;*/
-}
-.nav-a {
-	color:#f7f2ee;
-	font-family: 'BPG Nino Mtavruli Bold';
-	font-size: 28px;
-	text-decoration: none;
-	
-}
-.nav-a:hover {
-	color:#dfdfdf;
-	/*transform: scale(1.1, 1.1);
-	text-shadow: 1px 1px #efe5dc;
-	text-decoration: none;*/
-
-}
-.active{
-	color: #f7f2ee;
-	font-family: 'BPG Nino Mtavruli Bold';
-	font-size: 28px;
-}
-
-.nav-li {
-	padding-right: 55px;
-	text-decoration: none;
-}
-.last {
-	padding-right: 0;
-}
-/*burger-menu*/
-.menu-btn {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	/*align-items: center;*/
-	padding-top: 10px;
-	width: 40px;
-	height: 40px;
-	cursor: pointer;
-	transition: all .5s ease-in-out;
-	/*border: 3px solid #fff;*/
-	margin-right:15px;
-}
-  
-  .menu-btn-burger {
-	display: none;
-	width: 40px;
-	height: 6px;
-	background: #f7f2ee;
-	border-radius: 5px;
-	box-shadow: 0 2px 5px rgba(255,101,47,.2);
-	transition: all .5s ease-in-out;
-
-}
-  .menu-btn-burger::before,
-  .menu-btn-burger::after{
-	display: flex;
-	content: '';
-	position: absolute;
-	width: 40px;
-	height: 6px;
-	background:  #f7f2ee;
-	border-radius: 5px;
-	box-shadow: 0 2px 5px rgba(255,101,47,.2);
-	transition: all .5s ease-in-out;
-  
-  }
-  
-  .menu-btn-burger::before {
-	transform: translateY(-13px);
-  
-  }
-  .menu-btn-burger::after{
-	transform: translateY(13px);
-  }
-  
-  /* ANIMATION */
-  .menu-btn.open .menu-btn-burger {
-	transform: translateX(-50px);
-	background: transparent;
-	box-shadow: none;
-  }
-  .menu-btn.open .menu-btn-burger::before {
-	transform: rotate(45deg) translate(35px, -35px);
-  }
-  .menu-btn.open .menu-btn-burger::after {
-	transform: rotate(-45deg) translate(35px, 35px);
-  }
-/*footer*/
-.footer-box {
-	display: flex;
-	justify-content: space-around;
-	/*align-items: center;*/
-	padding: 20px 60px;
-	flex-wrap: wrap;
-	background-color:#18181c;
-	box-shadow: -7px -7px 7px #0d0d0d;
-	margin-top: 50px;
-
-}
-.footer-box1 {
-	/*width: 100%;*/
-	/*height: 191px;*/
-	display: flex;
-	flex-direction: column;
-  	justify-content: space-evenly;
-	/*align-items: center;
-	/*padding-left: 100px;*/
-
-}
-.contact-info {
-	/*width: 100%;
-	/*height: 191px;*/
-	padding-top: 50px;
-}
-.info-li {
-	font-family: 'Poppins-Medium';
-	font-size: 20px;
-	color: #f7f2ee;
-	padding-bottom: 30px;
-}
-.use-title {
-    font-size: 28px;
-    font-weight: bold;
-	padding-bottom: 10px;
-	color: #f7f2ee;;
-	font-family: 'BPG Nino Mtavruli Bold';
-	text-shadow: 1px 1px #efe5dc;
-}
-.mail-icon {
-	color: #f7f2ee;
-	padding-right: 14px;
-}
-.phone-icon {
-	color: #f7f2ee;
-	padding-right: 17px;
-}
-.map-icon {
-	color:#f7f2ee;
-	padding-right: 19.9px;
-}
-.map,
-.phone,
-.email
- {
-	color: #f7f2ee;
-	font-family: 'BPG Nino Mtavruli Bold';
-	font-size: 20px;
-}
-.fb {
-	color:#f7f2ee;
-	background-color: #18181c;
-	font-size: 50px;
-	
-}
-.twit {
-	color:#f7f2ee;
-	background-color:#18181c;
-	font-size: 50px;
-}
-.g-plus {
-	color:#f7f2ee;
-	background-color:#18181c;
-	font-size: 50px;
-	
-}
-.social-icons {
-    /*margin-top: 20px;*/
-    display: flex;
-    justify-content: space-evenly;
-    /*align-items: center;*/
-   /* width: 100px;*/
-  	/*padding-right: 30px;*/
-}
-.fb:hover {
-	color: #3B5998;
-	transform: scale(1.8,1.8);
-}
-.twit:hover {
-	color: #55ACEE;
-	transform: scale(1.8,1.8);
-}
-.g-plus:hover {
-	color: #DC4E41;
-	transform: scale(1.8,1.8);
-}
-.logo2 {
-    display: flex;
-   /* justify-content: flex-start;*/
-    flex-wrap: wrap;
-    /*color: black;
-    font-size: 30px;*/
-}
-.F-logoo {
-    font-size: 28px;
-    color: #f7f2ee;
-	padding-left: 10px;
-	font-family: 'BPG Nino Mtavruli Bold';
-	padding-top: 30px;
-	text-shadow: 1px 1px #efe5dc;
-
-}
-.foot-logo {
-	width: 70px;
-	height: 70px;
-}
-/*meore*/
-.meore {
-    margin: 0px 50px;
-    background-color:  #26272c;
-
-}
-.satauri {
-    display: flex;
-    justify-content: space-around;
-	margin: 50px 50px;
-	background-color:  #18181c;
-	padding: 50px 50px;
-	border-radius: 10px;
-	box-shadow: 7px 7px 7px #0d0d0d;
-	
-	
-}
-
-.lawyers {
-    font-size: 30px;
-	font-weight: bold;
-	color: #f7f2ee;
-	font-family: 'BPG Nino Mtavruli Bold';
-}
-.advokatebi {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
-}
-.advokati {
-	width: 430px;
-    height: 100%;
-    background-color:#18181c;
-    /*display: flex;
-    flex-direction: column;
-	align-items: center;
-	/*text-align: center;*/
-	border-radius: 2%;
-	box-shadow:7px 7px 7px #0d0d0d;
-	margin-top:10px;
-    
-}
-.team-box {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-}
-.law-mail-icon{
-	font-size: 25px;
-	color: #f7f2ee;
-	padding-right: 3px;
-}
-.law-phone-icon {
-	font-size: 25px;
-	color: #f7f2ee;
-	padding-right: 3px;
-}
-.social-media {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-	margin-left: 100px;
-}
-.law-email{
-	font-size: 23px;
-	color: #f7f2ee;
-	font-family: 'BPG Nino Mtavruli Bold';
-	padding-right: 5px;
-}
-.law-phone{
-	font-size: 23px;
-	color: #f7f2ee;
-	font-family: 'BPG Nino Mtavruli Bold';
-}
-.img-law {
-    width: 147px;
-    height: 147px;
-    border-radius: 50%;
-    margin-top: 20px;
-}
-.law-name{
-	padding-top: 10px;
-    font-size: 25px;
-    color: #f7f2ee;
-	/*font-weight: bold;*/
-	font-family: 'BPG Nino Mtavruli Bold';
-}
-.position{
-	padding-top: 20px;
-	font-size: 19px;
-    color: #f7f2ee;
-	/*font-weight: bold;*/
-	font-family: 'BPG Nino Mtavruli Bold';
-}
-.description {
-	padding: 20px;
-	font-size: 15px;
-    color: #f7f2ee;
-	font-weight: bold;
-	font-family: 'BPG Nino Mtavruli Bold';
-}
-
-/*contact page*/
-textarea {
-	resize: none;
-	width: 731.42px;
-	height: 112.62px;
-	width: 100%;
-	border: none;
-	
-	margin-top: 11.9px;
-}
-.saxeli, 
-.mail, 
-.sub-satauri, 
-.letter {
-	font-size: 20px;
-	color:#f7f2ee;
-	font-family: 'BPG Nino Mtavruli Bold';
-}
-.form-wraper {
-	width: 700px;
-	/*margin-left: 100px;*/
-	/*margin-top: 70px;*/
+	-webkit-box-shadow: 7px 7px 7px #0d0d0d;
+			box-shadow: 7px 7px 7px #0d0d0d;
+		
+	  }
+	  .logo {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+			-ms-flex-pack: center;
+				justify-content: center;
+		padding-left: 90px;
+	   /* margin-right: 600px;*/
+		/*padding-top: 20px;*/
 	}
-.input-wraper {
-	width: 100%;
-	font-size: 20px;
-	padding: 11px 200px 20.60px 29.60px;
-	margin-top: 11.9px;
-	margin-bottom: 11.9px;
-}
-.input-wraper::placeholder {
-	font-size: 20px;
-}
-.input-wraper:focus,
-.textarea-wraper:focus {
-	outline: none;
-}
-.btn {
-	border: none;
-	background-color: #f7f2ee;
-	width: 100px;
-	height: 40px;
-	color: #26272c;
-	font-size: 18px;
-	margin-top: 30px;
-	border-radius: 5%;
-	font-family: 'BPG Nino Mtavruli Bold';
-	text-align: center;
+	body {
+		background-color:#26272c;
+	}
 	
-}
-.btn:hover {
-	background-color: #18181c;
-	color: #f7f2ee;
-}
-.contact-wraper {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-.contact-map {
-	margin-top: 40px;;
-}
-/*pirveli*/
-.about-wraper {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	/*margin: 200px 40px;*/
-
-}
-.img-ab {
-	width: 100%;
-	/*height: 100%;*/
-	/*padding-right: 70px;*/
-	box-shadow: 7px 7px 7px #0d0d0d;
-	border-radius: 5px;
-}
-.about-text {
-	width: 610px;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-	margin-left: 70px;
-	border: solid;
-	border-color:  #18181c;
-	padding:  10px 10px 0 10px;
-	box-shadow: 5px 5px 5px #0d0d0d;
-	margin-top: 25px;
-
-}
-.about-title {
-	color: #f7f2ee;
-	font-family: 'BPG Nino Mtavruli Bold';
-	font-size: 27px;
-	padding-bottom: 10px;;
-}
-.about-p {
-	color: #f7f2ee;
-	font-size: 110%;
-	font-family: 'BPG Nino Mtavruli Bold';
-	padding-bottom: 10px;
-	text-shadow: 5px  #18181c;
-}
-.viber-icon {
-	color: #665CAC;
-	font-size: 30px;
-}
-.fb-icon {
-	color: #3B5998;
-	font-size: 30px;
-}
-.whatsapp-icon {
-	color:#25D366;
-	font-size: 30px;
-}
-.law-icons{
-	display: flex;
-	justify-content: space-evenly;
-}
-.law-info {
-	padding-bottom: 10px;
-}
-.viber-icon:hover {
+	.law {
+		padding-left: 10px;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
+		text-align: center;
+		font-size: 28px;
+		font-family: 'BPG Nino Mtavruli Bold';
+		color: #f7f2ee;
+		text-shadow: 1px 1px #efe5dc;
+		padding-top: 20px;
+	  }
+	.head-logo {
+		width: 70px;
+		height: 70px;
+	}
+	#menuToggle{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		/*padding-top: 20px;*/
+	  }
+	  /*.nav-ul {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		/*padding-right: 49px;*/
+		/*padding-top: 30px;
+		
+	}*/
+	.back-img {
+		background-color:#18181c;
+		width: 100%;
+		height: 130px;
+		/*margin-bottom: 130px;*/
+		background-size: cover;	
+		position: relative;
+		opacity: 0.8;
+		/*margin-bottom: 50px;*/
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.back-img:hover {
+		opacity: 1;
+	}
+	.container1 {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+			-ms-flex-pack: justify;
+				justify-content: space-between;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
+		text-align: center;
+		padding-top: 30px;
+		/*margin-bottom: 130px;*/
+		
+	}
+	.nav-ul {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: space-evenly;
+			-ms-flex-pack: space-evenly;
+				justify-content: space-evenly;
+		text-decoration: none;
+		/*padding-right: 49px;
+		padding-top: 20px;*/
+	}
+	.nav-a {
+		color:#f7f2ee;
+		font-family: 'BPG Nino Mtavruli Bold';
+		font-size: 28px;
+		text-decoration: none;
+		
+	}
+	.nav-a:hover {
+		color:#dfdfdf;
+		/*transform: scale(1.1, 1.1);
+		text-shadow: 1px 1px #efe5dc;
+		text-decoration: none;*/
 	
-	transform: scale(1.8,1.8);
-}
-.whatsapp-icon:hover{
+	}
+	.active{
+		color: #f7f2ee;
+		font-family: 'BPG Nino Mtavruli Bold';
+		font-size: 28px;
+	}
 	
-	transform: scale(1.8,1.8);
-
-}
-.fb-icon:hover{
+	.nav-li {
+		padding-right: 55px;
+		text-decoration: none;
+	}
+	.last {
+		padding-right: 0;
+	}
+	/*burger-menu*/
+	.menu-btn {
+		position: relative;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+			-ms-flex-pack: center;
+				justify-content: center;
+		/*align-items: center;*/
+		padding-top: 10px;
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+		-webkit-transition: all .5s ease-in-out;
+		-o-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
+		/*border: 3px solid #fff;*/
+		margin-right:15px;
+	}
+	  
+	  .menu-btn-burger {
+		display: none;
+		width: 40px;
+		height: 6px;
+		background: #f7f2ee;
+		border-radius: 5px;
+		-webkit-box-shadow: 0 2px 5px rgba(255,101,47,.2);
+				box-shadow: 0 2px 5px rgba(255,101,47,.2);
+		-webkit-transition: all .5s ease-in-out;
+		-o-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
 	
-	transform: scale(1.8,1.8);
-}
-/*work-area*/
-.work-area {
-	margin: 100px 100px;
-	background-color:#18181c;
-	border-radius: 10px;
-	box-shadow:7px 7px 7px #0d0d0d
+	}
+	  .menu-btn-burger::before,
+	  .menu-btn-burger::after{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		content: '';
+		position: absolute;
+		width: 40px;
+		height: 6px;
+		background:  #f7f2ee;
+		border-radius: 5px;
+		-webkit-box-shadow: 0 2px 5px rgba(255,101,47,.2);
+				box-shadow: 0 2px 5px rgba(255,101,47,.2);
+		-webkit-transition: all .5s ease-in-out;
+		-o-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
+	  
+	  }
+	  
+	  .menu-btn-burger::before {
+		-webkit-transform: translateY(-13px);
+			-ms-transform: translateY(-13px);
+				transform: translateY(-13px);
+	  
+	  }
+	  .menu-btn-burger::after{
+		-webkit-transform: translateY(13px);
+			-ms-transform: translateY(13px);
+				transform: translateY(13px);
+	  }
+	  
+	  /* ANIMATION */
+	  .menu-btn.open .menu-btn-burger {
+		-webkit-transform: translateX(-50px);
+			-ms-transform: translateX(-50px);
+				transform: translateX(-50px);
+		background: transparent;
+		-webkit-box-shadow: none;
+				box-shadow: none;
+	  }
+	  .menu-btn.open .menu-btn-burger::before {
+		-webkit-transform: rotate(45deg) translate(35px, -35px);
+			-ms-transform: rotate(45deg) translate(35px, -35px);
+				transform: rotate(45deg) translate(35px, -35px);
+	  }
+	  .menu-btn.open .menu-btn-burger::after {
+		-webkit-transform: rotate(-45deg) translate(35px, 35px);
+			-ms-transform: rotate(-45deg) translate(35px, 35px);
+				transform: rotate(-45deg) translate(35px, 35px);
+	  }
+	/*footer*/
+	.footer-box {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-pack: distribute;
+			justify-content: space-around;
+		/*align-items: center;*/
+		padding: 20px 60px;
+		-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+		background-color:#18181c;
+		-webkit-box-shadow: -7px -7px 7px #0d0d0d;
+				box-shadow: -7px -7px 7px #0d0d0d;
+		margin-top: 50px;
 	
-}
-.work-area-title-box {
-	display: flex;
-	justify-content: center;
-	color: #f7f2ee;
-	font-size: 30px;
-	/*margin: 50px;*/
-	font-family: 'BPG Nino Mtavruli Bold';
-	padding-top: 70px;
-	padding-bottom: 25px;
-}
-.work-area-box {
-	display: flex;
-	justify-content: space-around;
-	height: 100%;
-	flex-wrap: wrap;
-	margin: 30px;
-
-}
-.work-area-list {
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 30px;
-	padding-bottom: 30px;
+	}
+	.footer-box1 {
+		/*width: 100%;*/
+		/*height: 191px;*/
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
+		  -webkit-box-pack: space-evenly;
+			  -ms-flex-pack: space-evenly;
+				  justify-content: space-evenly;
+		/*align-items: center;
+		/*padding-left: 100px;*/
 	
+	}
+	.contact-info {
+		/*width: 100%;
+		/*height: 191px;*/
+		padding-top: 50px;
+	}
+	.info-li {
+		font-family: 'Poppins-Medium';
+		font-size: 20px;
+		color: #f7f2ee;
+		padding-bottom: 30px;
+	}
+	.use-title {
+		font-size: 28px;
+		font-weight: bold;
+		padding-bottom: 10px;
+		color: #f7f2ee;;
+		font-family: 'BPG Nino Mtavruli Bold';
+		text-shadow: 1px 1px #efe5dc;
+	}
+	.mail-icon {
+		color: #f7f2ee;
+		padding-right: 14px;
+	}
+	.phone-icon {
+		color: #f7f2ee;
+		padding-right: 17px;
+	}
+	.map-icon {
+		color:#f7f2ee;
+		padding-right: 19.9px;
+	}
+	.map,
+	.phone,
+	.email
+	 {
+		color: #f7f2ee;
+		font-family: 'BPG Nino Mtavruli Bold';
+		font-size: 20px;
+	}
+	.fb {
+		color:#f7f2ee;
+		background-color: #18181c;
+		font-size: 50px;
+		
+	}
+	.twit {
+		color:#f7f2ee;
+		background-color:#18181c;
+		font-size: 50px;
+	}
+	.g-plus {
+		color:#f7f2ee;
+		background-color:#18181c;
+		font-size: 50px;
+		
+	}
+	.social-icons {
+		/*margin-top: 20px;*/
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: space-evenly;
+			-ms-flex-pack: space-evenly;
+				justify-content: space-evenly;
+		/*align-items: center;*/
+	   /* width: 100px;*/
+		  /*padding-right: 30px;*/
+	}
+	.fb:hover {
+		color: #3B5998;
+		-webkit-transform: scale(1.8,1.8);
+			-ms-transform: scale(1.8,1.8);
+				transform: scale(1.8,1.8);
+	}
+	.twit:hover {
+		color: #55ACEE;
+		-webkit-transform: scale(1.8,1.8);
+			-ms-transform: scale(1.8,1.8);
+				transform: scale(1.8,1.8);
+	}
+	.g-plus:hover {
+		color: #DC4E41;
+		-webkit-transform: scale(1.8,1.8);
+			-ms-transform: scale(1.8,1.8);
+				transform: scale(1.8,1.8);
+	}
+	.logo2 {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	   /* justify-content: flex-start;*/
+		-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+		/*color: black;
+		font-size: 30px;*/
+	}
+	.F-logoo {
+		font-size: 28px;
+		color: #f7f2ee;
+		padding-left: 10px;
+		font-family: 'BPG Nino Mtavruli Bold';
+		padding-top: 30px;
+		text-shadow: 1px 1px #efe5dc;
 	
-}
-.work-p {
-	font-family: 'BPG Nino Mtavruli Bold';
-	color: #f7f2ee;
-	font-size: 23px;
-	padding-top: 15px;
-}
-.work-area-icon {
-	font-size: 30px;
-	padding-right: 15px;
-}
-/*lawyers*/
-.adv-img {
-	width: 380px;
-	height: 380px;
-	margin-bottom: 10px;
-}
-.law1 {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	/*width: 1600px;*/
-	height: 100%;
-	margin-bottom: 50px;
-}
-.law2 {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	}
+	.foot-logo {
+		width: 70px;
+		height: 70px;
+	}
+	/*meore*/
+	.meore {
+		margin: 0px 50px;
+		background-color:  #26272c;
 	
-	height: 100%;
-	margin-bottom: 50px;
-}
-.law3 {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	}
+	.satauri {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-pack: distribute;
+			justify-content: space-around;
+		margin: 50px 50px;
+		background-color:  #18181c;
+		padding: 50px 50px;
+		border-radius: 10px;
+		-webkit-box-shadow: 7px 7px 7px #0d0d0d;
+				box-shadow: 7px 7px 7px #0d0d0d;
+		
+		
+	}
 	
-	height: 100%;
-	margin-bottom: 50px;
-}
-.adv-info {
-	width: 800px;
-	background-color: #18181c;
-	padding: 15px;
-	box-shadow: -7px -7px 7px #0d0d0d;
-	border-radius: 3px;
+	.lawyers {
+		font-size: 30px;
+		font-weight: bold;
+		color: #f7f2ee;
+		font-family: 'BPG Nino Mtavruli Bold';
+	}
+	.advokatebi {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: row;
+				flex-direction: row;
+		-ms-flex-pack: distribute;
+			justify-content: space-around;
+		-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+		
+	}
+	.advokati {
+		width: 430px;
+		height: 100%;
+		background-color:#18181c;
+		/*display: flex;
+		flex-direction: column;
+		align-items: center;
+		/*text-align: center;*/
+		border-radius: 2%;
+		-webkit-box-shadow:7px 7px 7px #0d0d0d;
+				box-shadow:7px 7px 7px #0d0d0d;
+		margin-top:10px;
+		
+	}
+	.team-box {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
+		text-align: center;
+	}
+	.law-mail-icon{
+		font-size: 25px;
+		color: #f7f2ee;
+		padding-right: 3px;
+	}
+	.law-phone-icon {
+		font-size: 25px;
+		color: #f7f2ee;
+		padding-right: 3px;
+	}
+	.social-media {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
+		-webkit-box-pack: space-evenly;
+			-ms-flex-pack: space-evenly;
+				justify-content: space-evenly;
+		margin-left: 100px;
+	}
+	.law-email{
+		font-size: 23px;
+		color: #f7f2ee;
+		font-family: 'BPG Nino Mtavruli Bold';
+		padding-right: 5px;
+	}
+	.law-phone{
+		font-size: 23px;
+		color: #f7f2ee;
+		font-family: 'BPG Nino Mtavruli Bold';
+	}
+	.img-law {
+		width: 147px;
+		height: 147px;
+		border-radius: 50%;
+		margin-top: 20px;
+	}
+	.law-name{
+		padding-top: 10px;
+		font-size: 25px;
+		color: #f7f2ee;
+		/*font-weight: bold;*/
+		font-family: 'BPG Nino Mtavruli Bold';
+	}
+	.position{
+		padding-top: 20px;
+		font-size: 19px;
+		color: #f7f2ee;
+		/*font-weight: bold;*/
+		font-family: 'BPG Nino Mtavruli Bold';
+	}
+	.description {
+		padding: 20px;
+		font-size: 15px;
+		color: #f7f2ee;
+		font-weight: bold;
+		font-family: 'BPG Nino Mtavruli Bold';
+	}
 	
-
-}
-/*.law-team-box {
-	width: 600px;
-	height: 100%;
-
-}
-.sertificate-box {
-	width: 500px;
-	height: 100%;
-}*/
-.law-team-name{
-	font-family: 'BPG Nino Mtavruli Bold';
-	color: #f7f2ee;
-	font-size: 23px;
-	padding-top: 15px;
-}
-.law-team-position {
-	font-family: 'BPG Nino Mtavruli Bold';
-	color: #f7f2ee;
-	font-size: 20px;
-	padding-top: 15px;
-}
-.law-team-description {
-	font-family: 'BPG Nino Mtavruli Bold';
-	color: #f7f2ee;
-	font-size: 18px;
-	padding-top: 15px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-.sertificate {
-	font-family: 'BPG Nino Mtavruli Bold';
-	color: #f7f2ee;
-	font-size: 15px;
-	margin-bottom: 20px;
+	/*contact page*/
+	textarea {
+		resize: none;
+		width: 731.42px;
+		height: 112.62px;
+		width: 100%;
+		border: none;
+		
+		margin-top: 11.9px;
+	}
+	.saxeli, 
+	.mail, 
+	.sub-satauri, 
+	.letter {
+		font-size: 20px;
+		color:#f7f2ee;
+		font-family: 'BPG Nino Mtavruli Bold';
+	}
+	.form-wraper {
+		width: 700px;
+		/*margin-left: 100px;*/
+		/*margin-top: 70px;*/
+		}
+	.input-wraper {
+		width: 100%;
+		font-size: 20px;
+		padding: 11px 200px 20.60px 29.60px;
+		margin-top: 11.9px;
+		margin-bottom: 11.9px;
+	}
+	.input-wraper::-webkit-input-placeholder {
+		font-size: 20px;
+	}
+	.input-wraper::-moz-placeholder {
+		font-size: 20px;
+	}
+	.input-wraper:-ms-input-placeholder {
+		font-size: 20px;
+	}
+	.input-wraper::-ms-input-placeholder {
+		font-size: 20px;
+	}
+	.input-wraper::placeholder {
+		font-size: 20px;
+	}
+	.input-wraper:focus,
+	.textarea-wraper:focus {
+		outline: none;
+	}
+	.btn {
+		border: none;
+		background-color: #f7f2ee;
+		width: 100px;
+		height: 40px;
+		color: #26272c;
+		font-size: 18px;
+		margin-top: 30px;
+		border-radius: 5%;
+		font-family: 'BPG Nino Mtavruli Bold';
+		text-align: center;
+		
+	}
+	.btn:hover {
+		background-color: #18181c;
+		color: #f7f2ee;
+	}
+	.contact-wraper {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-pack: distribute;
+			justify-content: space-around;
+		-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+	}
+	.contact-map {
+		margin-top: 40px;;
+	}
+	/*pirveli*/
+	.about-wraper {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+			-ms-flex-pack: center;
+				justify-content: center;
+		-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+		/*margin: 200px 40px;*/
 	
-}
-.law-team-socialmedia {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	margin-top: 20px;
-}
-.law-team-icons {
-	display: flex;
-	justify-content: flex-start;
-
-}
-.facebook,
-.viber {
-	padding-right: 20px;
-}
-.carousel-container {
-	width: 69%;
-	margin: auto;
-	overflow: hidden;
-	position: relative;
-	border-radius: 10px;
-	box-shadow: 7px 7px 7px #0d0d0d;
-	opacity: 0.7;
+	}
+	.img-ab {
+		width: 100%;
+		/*height: 100%;*/
+		/*padding-right: 70px;*/
+		-webkit-box-shadow: 7px 7px 7px #0d0d0d;
+				box-shadow: 7px 7px 7px #0d0d0d;
+		border-radius: 5px;
+	}
+	.about-text {
+		width: 610px;
+		height: 100%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
+		-webkit-box-pack: start;
+			-ms-flex-pack: start;
+				justify-content: flex-start;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
+		margin-left: 70px;
+		border: solid;
+		border-color:  #18181c;
+		padding:  10px 10px 0 10px;
+		-webkit-box-shadow: 5px 5px 5px #0d0d0d;
+				box-shadow: 5px 5px 5px #0d0d0d;
+		margin-top: 25px;
 	
-
-}
-.carousel-container:hover {
-	opacity: 1;
-}
-
-.carousel-slide {
-	display: flex;
-	width: 100%;
-}
-#prevBtn {
-	position: absolute;
-	top:50%;
-	z-index: 10;
-	left: 5%;
-	color: #18181c;
-	opacity: 1;
-	cursor: pointer;
-	font-size: 50px;
-	text-shadow: 2px 2px 2px black;
-}
-#nextBtn {
-	position: absolute;
-	top:50%;
-	z-index: 10;
-	right: 5%;
-	color: #18181c;
-	opacity: 1;
-	cursor: pointer;
-	font-size: 50px;
-	text-shadow: 2px 2px 2px black;
-}
-.slider-p {
-	position: absolute;
-	top:5%;
-	z-index: 10;
-	right: 5%;
-	color: black;
-	opacity: 1;
-	cursor: pointer;
-	font-size: 50px;
-	text-shadow: 2px 2px 2px black;
-	font-family: 'BPG Nino Mtavruli Bold';
-}
+	}
+	.about-title {
+		color: #f7f2ee;
+		font-family: 'BPG Nino Mtavruli Bold';
+		font-size: 27px;
+		padding-bottom: 10px;;
+	}
+	.about-p {
+		color: #f7f2ee;
+		font-size: 110%;
+		font-family: 'BPG Nino Mtavruli Bold';
+		padding-bottom: 10px;
+	}
+	.viber-icon {
+		color: #665CAC;
+		font-size: 30px;
+	}
+	.fb-icon {
+		color: #3B5998;
+		font-size: 30px;
+	}
+	.whatsapp-icon {
+		color:#25D366;
+		font-size: 30px;
+	}
+	.law-icons{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: space-evenly;
+			-ms-flex-pack: space-evenly;
+				justify-content: space-evenly;
+	}
+	.law-info {
+		padding-bottom: 10px;
+	}
+	.viber-icon:hover {
+		
+		-webkit-transform: scale(1.8,1.8);
+		
+			-ms-transform: scale(1.8,1.8);
+		
+				transform: scale(1.8,1.8);
+	}
+	.whatsapp-icon:hover{
+		
+		-webkit-transform: scale(1.8,1.8);
+		
+			-ms-transform: scale(1.8,1.8);
+		
+				transform: scale(1.8,1.8);
+	
+	}
+	.fb-icon:hover{
+		
+		-webkit-transform: scale(1.8,1.8);
+		
+			-ms-transform: scale(1.8,1.8);
+		
+				transform: scale(1.8,1.8);
+	}
+	/*work-area*/
+	.work-area {
+		margin: 100px 100px;
+		background-color:#18181c;
+		border-radius: 10px;
+		-webkit-box-shadow:7px 7px 7px #0d0d0d;
+				box-shadow:7px 7px 7px #0d0d0d
+		
+	}
+	.work-area-title-box {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+			-ms-flex-pack: center;
+				justify-content: center;
+		color: #f7f2ee;
+		font-size: 30px;
+		/*margin: 50px;*/
+		font-family: 'BPG Nino Mtavruli Bold';
+		padding-top: 70px;
+		padding-bottom: 25px;
+	}
+	.work-area-box {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-pack: distribute;
+			justify-content: space-around;
+		height: 100%;
+		-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+		margin: 30px;
+	
+	}
+	.work-area-list {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
+		margin-bottom: 30px;
+		padding-bottom: 30px;
+		
+		
+	}
+	.work-p {
+		font-family: 'BPG Nino Mtavruli Bold';
+		color: #f7f2ee;
+		font-size: 23px;
+		padding-top: 15px;
+	}
+	.work-area-icon {
+		font-size: 30px;
+		padding-right: 15px;
+	}
+	/*lawyers*/
+	.adv-img {
+		width: 380px;
+		height: 380px;
+		margin-bottom: 10px;
+	}
+	.law1 {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+		-ms-flex-pack: distribute;
+			justify-content: space-around;
+		/*width: 1600px;*/
+		height: 100%;
+		margin-bottom: 50px;
+	}
+	.law2 {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+		-ms-flex-pack: distribute;
+			justify-content: space-around;
+		
+		height: 100%;
+		margin-bottom: 50px;
+	}
+	.law3 {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+		-ms-flex-pack: distribute;
+			justify-content: space-around;
+		
+		height: 100%;
+		margin-bottom: 50px;
+	}
+	.adv-info {
+		width: 800px;
+		background-color: #18181c;
+		padding: 15px;
+		-webkit-box-shadow: -7px -7px 7px #0d0d0d;
+				box-shadow: -7px -7px 7px #0d0d0d;
+		border-radius: 3px;
+		
+	
+	}
+	/*.law-team-box {
+		width: 600px;
+		height: 100%;
+	
+	}
+	.sertificate-box {
+		width: 500px;
+		height: 100%;
+	}*/
+	.law-team-name{
+		font-family: 'BPG Nino Mtavruli Bold';
+		color: #f7f2ee;
+		font-size: 23px;
+		padding-top: 15px;
+	}
+	.law-team-position {
+		font-family: 'BPG Nino Mtavruli Bold';
+		color: #f7f2ee;
+		font-size: 20px;
+		padding-top: 15px;
+	}
+	.law-team-description {
+		font-family: 'BPG Nino Mtavruli Bold';
+		color: #f7f2ee;
+		font-size: 18px;
+		padding-top: 15px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.sertificate {
+		font-family: 'BPG Nino Mtavruli Bold';
+		color: #f7f2ee;
+		font-size: 15px;
+		margin-bottom: 20px;
+		
+	}
+	.law-team-socialmedia {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
+		-webkit-box-pack: justify;
+			-ms-flex-pack: justify;
+				justify-content: space-between;
+		margin-top: 20px;
+	}
+	.law-team-icons {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: start;
+			-ms-flex-pack: start;
+				justify-content: flex-start;
+	
+	}
+	.facebook,
+	.viber {
+		padding-right: 20px;
+	}
+	.carousel-container {
+		width: 69%;
+		margin: auto;
+		overflow: hidden;
+		position: relative;
+		border-radius: 10px;
+		-webkit-box-shadow: 7px 7px 7px #0d0d0d;
+				box-shadow: 7px 7px 7px #0d0d0d;
+		opacity: 0.7;
+		
+	
+	}
+	.carousel-container:hover {
+		opacity: 1;
+	}
+	
+	.carousel-slide {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		width: 100%;
+	}
+	#prevBtn {
+		position: absolute;
+		top:50%;
+		z-index: 10;
+		left: 5%;
+		color: #18181c;
+		opacity: 1;
+		cursor: pointer;
+		font-size: 50px;
+		text-shadow: 2px 2px 2px black;
+	}
+	#nextBtn {
+		position: absolute;
+		top:50%;
+		z-index: 10;
+		right: 5%;
+		color: #18181c;
+		opacity: 1;
+		cursor: pointer;
+		font-size: 50px;
+		text-shadow: 2px 2px 2px black;
+	}
+	.slider-p {
+		position: absolute;
+		top:5%;
+		z-index: 10;
+		right: 5%;
+		color: black;
+		opacity: 1;
+		cursor: pointer;
+		font-size: 50px;
+		text-shadow: 2px 2px 2px black;
+		font-family: 'BPG Nino Mtavruli Bold';
+	}
