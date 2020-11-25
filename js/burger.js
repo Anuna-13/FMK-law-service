@@ -49,3 +49,7 @@ carouselSlide.addEventListener('transitionend', () => {
       carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 }
 });
+
+document.getElementById('button').addEventListener('click', function (){
+  alert ('თქვენი წერილი გაგზავნილია');
+});
